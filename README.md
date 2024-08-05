@@ -1,7 +1,7 @@
 # Meroby113 - Vehicle System
 This application is simply a desktop application that keeps track of users, each user's vehicle, fuel purchases for there vehicles, and the user's budget.
 # Aim of The Project
-To learn how to use data first approach in entitiy framework
+To learn how to use data first approach in entitiy framework by using belove languages, frameworks and tools.
 # Languages, Frameworks and Technological Tools Used For The Project 
 * Language:
   * C#
