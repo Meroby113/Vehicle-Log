@@ -1,0 +1,356 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\listcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:listcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\listcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:listcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|c:\\users\\merve\\source\\repos\\entityframeworkproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\addvehicleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:addvehicleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\budgetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:budgetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\addcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:addcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\addcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:addcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\budgetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:budgetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\genelclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:genelclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\addvehicleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:addvehicleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\entityframeworkmodels\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{0D7ADE93-4257-4DF3-AA6E-C8219A2791C2}|EntityFrameworkProject.csproj|solutionrelative:entityframeworkmodels\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form4.cs",
+              "RelativeToolTip": "Form4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T07:32:52.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form4.cs [Design]",
+              "RelativeToolTip": "Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T07:28:44.096Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\HomeForm.cs",
+              "RelativeDocumentMoniker": "HomeForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\HomeForm.cs",
+              "RelativeToolTip": "HomeForm.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:29:00.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:28:50.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\EntityFrameworkModels\\Model1.edmx",
+              "RelativeDocumentMoniker": "EntityFrameworkModels\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\EntityFrameworkModels\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "EntityFrameworkModels\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-26T06:25:33.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddVehicleForm.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\AddVehicleForm.cs",
+              "RelativeDocumentMoniker": "AddVehicleForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\AddVehicleForm.cs",
+              "RelativeToolTip": "AddVehicleForm.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:11:49.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddCustomerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\AddCustomerForm.cs",
+              "RelativeDocumentMoniker": "AddCustomerForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\AddCustomerForm.cs",
+              "RelativeToolTip": "AddCustomerForm.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwDAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:55:55.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\HomeForm.cs",
+              "RelativeDocumentMoniker": "HomeForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\HomeForm.cs [Design]",
+              "RelativeToolTip": "HomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:55:26.193Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form3.cs [Design]",
+              "RelativeToolTip": "Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:55:22.624Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:54:54.083Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BudgetForm.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\BudgetForm.cs",
+              "RelativeDocumentMoniker": "BudgetForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\BudgetForm.cs",
+              "RelativeToolTip": "BudgetForm.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAA3wD8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:53:01.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BudgetForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\BudgetForm.cs",
+              "RelativeDocumentMoniker": "BudgetForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\BudgetForm.cs [Design]",
+              "RelativeToolTip": "BudgetForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:52:44.782Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddVehicleForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\AddVehicleForm.cs",
+              "RelativeDocumentMoniker": "AddVehicleForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\AddVehicleForm.cs [Design]",
+              "RelativeToolTip": "AddVehicleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:52:37.488Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddCustomerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\AddCustomerForm.cs",
+              "RelativeDocumentMoniker": "AddCustomerForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\AddCustomerForm.cs [Design]",
+              "RelativeToolTip": "AddCustomerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:42:29.392Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenelClass.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\GenelClass.cs",
+              "RelativeDocumentMoniker": "GenelClass.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\GenelClass.cs",
+              "RelativeToolTip": "GenelClass.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwDIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:38:55.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:34:18.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form2.cs [Design]",
+              "RelativeToolTip": "Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T11:15:16.073Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListCustomerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\ListCustomerForm.cs",
+              "RelativeDocumentMoniker": "ListCustomerForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\ListCustomerForm.cs [Design]",
+              "RelativeToolTip": "ListCustomerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:55:29.079Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA6wGEAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:28:33.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListCustomerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\ListCustomerForm.cs",
+              "RelativeDocumentMoniker": "ListCustomerForm.cs",
+              "ToolTip": "C:\\Users\\Merve\\source\\repos\\EntityFrameworkProject\\ListCustomerForm.cs",
+              "RelativeToolTip": "ListCustomerForm.cs",
+              "ViewState": "AQIAANkAAAAAAAAAAAAYwMoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:29:06.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

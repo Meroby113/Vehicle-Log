@@ -74,12 +74,11 @@
             // 
             this.SearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.SearchTB.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.SearchTB.Location = new System.Drawing.Point(557, 399);
-            this.SearchTB.Margin = new System.Windows.Forms.Padding(4);
+            this.SearchTB.Location = new System.Drawing.Point(418, 324);
             this.SearchTB.MaximumSize = new System.Drawing.Size(4, 50);
-            this.SearchTB.MinimumSize = new System.Drawing.Size(532, 25);
+            this.SearchTB.MinimumSize = new System.Drawing.Size(400, 25);
             this.SearchTB.Name = "SearchTB";
-            this.SearchTB.Size = new System.Drawing.Size(532, 26);
+            this.SearchTB.Size = new System.Drawing.Size(400, 26);
             this.SearchTB.TabIndex = 4;
             this.SearchTB.Text = "Search For Customer";
             this.SearchTB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SearchTB_MouseClick);
@@ -97,10 +96,9 @@
             this.surname,
             this.approvalstatusDataGridViewCheckBoxColumn});
             this.ListOfCustomerDGV.DataSource = this.customerBindingSource3;
-            this.ListOfCustomerDGV.Location = new System.Drawing.Point(49, 469);
-            this.ListOfCustomerDGV.Margin = new System.Windows.Forms.Padding(4);
+            this.ListOfCustomerDGV.Location = new System.Drawing.Point(49, 384);
             this.ListOfCustomerDGV.Name = "ListOfCustomerDGV";
-            this.ListOfCustomerDGV.Size = new System.Drawing.Size(1031, 438);
+            this.ListOfCustomerDGV.Size = new System.Drawing.Size(917, 356);
             this.ListOfCustomerDGV.TabIndex = 3;
             // 
             // customer_id
@@ -157,8 +155,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(384, 22);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(288, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(291, 37);
             this.label1.TabIndex = 4;
@@ -168,10 +165,9 @@
             // 
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::EntityFrameworkProject.Properties.Resources.customers__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(233, 86);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(175, 70);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(669, 271);
+            this.pictureBox1.Size = new System.Drawing.Size(502, 220);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -232,10 +228,9 @@
             this.BackToHomeB.BackColor = System.Drawing.Color.Khaki;
             this.BackToHomeB.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BackToHomeB.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.BackToHomeB.Location = new System.Drawing.Point(49, 949);
-            this.BackToHomeB.Margin = new System.Windows.Forms.Padding(4);
+            this.BackToHomeB.Location = new System.Drawing.Point(37, 771);
             this.BackToHomeB.Name = "BackToHomeB";
-            this.BackToHomeB.Size = new System.Drawing.Size(203, 54);
+            this.BackToHomeB.Size = new System.Drawing.Size(152, 44);
             this.BackToHomeB.TabIndex = 19;
             this.BackToHomeB.Text = "Back";
             this.BackToHomeB.UseVisualStyleBackColor = false;
@@ -243,15 +238,14 @@
             // 
             // ListCustomerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1148, 1050);
+            this.ClientSize = new System.Drawing.Size(1103, 853);
             this.Controls.Add(this.BackToHomeB);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ListOfCustomerDGV);
             this.Controls.Add(this.SearchTB);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ListCustomerForm";
             this.Text = "FindCustomer";
             ((System.ComponentModel.ISupportInitialize)(this.ListOfCustomerDGV)).EndInit();

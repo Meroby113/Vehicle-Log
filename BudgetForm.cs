@@ -20,6 +20,7 @@ namespace EntityFrameworkProject
             InitializeComponent();
             CustomerNameL.Text = name.Trim() + " " + surname.Trim();
             Customer_idL.Text = customer_id;
+            
 
         }
 
@@ -27,6 +28,7 @@ namespace EntityFrameworkProject
         {
             CustomerNameL.TextAlign = ContentAlignment.MiddleCenter;
             Customer customer = Vlog.Customer.Find(Int32.Parse(Customer_idL.Text));
+            Console.WriteLine(customer.balance_id);
 
             if(customer.balance_id == null) {
                 CredirL.Visible = false;
@@ -59,6 +61,7 @@ namespace EntityFrameworkProject
 
         private void AddBudgetB_Click(object sender, EventArgs e)
         {
+            
             CredirL.Visible = true;
             CreditTB.Visible = true;
             CashL.Visible = true;
@@ -67,7 +70,9 @@ namespace EntityFrameworkProject
             GiftCardTB.Visible = true;
             UpdateBudgetB.Visible = true;
             NoBudgetL.Visible = false;
-            AddBudgetB.Visible = false;    
+            AddBudgetB.Visible = false;
+            
+            
         }
 
         private void UpdateBudgetB_Click(object sender, EventArgs e)
@@ -77,6 +82,8 @@ namespace EntityFrameworkProject
             balance.credit = Decimal.Parse(CreditTB.Text);
             balance.cash = Decimal.Parse(CashTB.Text);
 
+            Customer customer = Vlog.Customer.Find(Int32.Parse(Customer_idL.Text));
+            customer.balance_id = balance.balance_id;
             balance.customer_id = Int32.Parse(Customer_idL.Text);
 
             Vlog.Balance.Add(balance);

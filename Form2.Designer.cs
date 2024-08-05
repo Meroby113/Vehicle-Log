@@ -41,14 +41,14 @@
             this.CustomerIdL = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.PaymentTypeCB = new System.Windows.Forms.ComboBox();
+            this.VehicleTypeL = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CustomerNameL
             // 
             this.CustomerNameL.AutoSize = true;
             this.CustomerNameL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.CustomerNameL.Location = new System.Drawing.Point(169, 28);
-            this.CustomerNameL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CustomerNameL.Location = new System.Drawing.Point(147, 23);
             this.CustomerNameL.Name = "CustomerNameL";
             this.CustomerNameL.Size = new System.Drawing.Size(216, 22);
             this.CustomerNameL.TabIndex = 10;
@@ -58,8 +58,7 @@
             // 
             this.TransactionAmountL.AutoSize = true;
             this.TransactionAmountL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TransactionAmountL.Location = new System.Drawing.Point(47, 242);
-            this.TransactionAmountL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TransactionAmountL.Location = new System.Drawing.Point(35, 197);
             this.TransactionAmountL.Name = "TransactionAmountL";
             this.TransactionAmountL.Size = new System.Drawing.Size(152, 20);
             this.TransactionAmountL.TabIndex = 11;
@@ -69,8 +68,7 @@
             // 
             this.DateL.AutoSize = true;
             this.DateL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.DateL.Location = new System.Drawing.Point(47, 174);
-            this.DateL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DateL.Location = new System.Drawing.Point(35, 141);
             this.DateL.Name = "DateL";
             this.DateL.Size = new System.Drawing.Size(136, 20);
             this.DateL.TabIndex = 12;
@@ -80,8 +78,7 @@
             // 
             this.FuelAmountL.AutoSize = true;
             this.FuelAmountL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.FuelAmountL.Location = new System.Drawing.Point(108, 107);
-            this.FuelAmountL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.FuelAmountL.Location = new System.Drawing.Point(81, 87);
             this.FuelAmountL.Name = "FuelAmountL";
             this.FuelAmountL.Size = new System.Drawing.Size(100, 20);
             this.FuelAmountL.TabIndex = 13;
@@ -89,21 +86,19 @@
             // 
             // FuelAmountTB
             // 
-            this.FuelAmountTB.Location = new System.Drawing.Point(279, 107);
-            this.FuelAmountTB.Margin = new System.Windows.Forms.Padding(4);
+            this.FuelAmountTB.Location = new System.Drawing.Point(209, 87);
             this.FuelAmountTB.MinimumSize = new System.Drawing.Size(4, 25);
             this.FuelAmountTB.Name = "FuelAmountTB";
-            this.FuelAmountTB.Size = new System.Drawing.Size(204, 22);
+            this.FuelAmountTB.Size = new System.Drawing.Size(154, 20);
             this.FuelAmountTB.TabIndex = 14;
             this.FuelAmountTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FuelAmountTB_KeyPress);
             // 
             // TransactionAmountTB
             // 
-            this.TransactionAmountTB.Location = new System.Drawing.Point(279, 242);
-            this.TransactionAmountTB.Margin = new System.Windows.Forms.Padding(4);
+            this.TransactionAmountTB.Location = new System.Drawing.Point(209, 197);
             this.TransactionAmountTB.MinimumSize = new System.Drawing.Size(4, 25);
             this.TransactionAmountTB.Name = "TransactionAmountTB";
-            this.TransactionAmountTB.Size = new System.Drawing.Size(204, 22);
+            this.TransactionAmountTB.Size = new System.Drawing.Size(154, 20);
             this.TransactionAmountTB.TabIndex = 16;
             this.TransactionAmountTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TransactionAmountTB_KeyPress);
             // 
@@ -111,10 +106,9 @@
             // 
             this.BackToListCustomerFormB.BackColor = System.Drawing.Color.Khaki;
             this.BackToListCustomerFormB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BackToListCustomerFormB.Location = new System.Drawing.Point(13, 433);
-            this.BackToListCustomerFormB.Margin = new System.Windows.Forms.Padding(4);
+            this.BackToListCustomerFormB.Location = new System.Drawing.Point(10, 352);
             this.BackToListCustomerFormB.Name = "BackToListCustomerFormB";
-            this.BackToListCustomerFormB.Size = new System.Drawing.Size(140, 37);
+            this.BackToListCustomerFormB.Size = new System.Drawing.Size(105, 30);
             this.BackToListCustomerFormB.TabIndex = 17;
             this.BackToListCustomerFormB.Text = "Back";
             this.BackToListCustomerFormB.UseVisualStyleBackColor = false;
@@ -124,10 +118,9 @@
             // 
             this.PurchaseFuelB.BackColor = System.Drawing.Color.PaleTurquoise;
             this.PurchaseFuelB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.PurchaseFuelB.Location = new System.Drawing.Point(406, 433);
-            this.PurchaseFuelB.Margin = new System.Windows.Forms.Padding(4);
+            this.PurchaseFuelB.Location = new System.Drawing.Point(304, 352);
             this.PurchaseFuelB.Name = "PurchaseFuelB";
-            this.PurchaseFuelB.Size = new System.Drawing.Size(173, 37);
+            this.PurchaseFuelB.Size = new System.Drawing.Size(130, 30);
             this.PurchaseFuelB.TabIndex = 18;
             this.PurchaseFuelB.Text = "Purchase Fuel";
             this.PurchaseFuelB.UseVisualStyleBackColor = false;
@@ -135,20 +128,18 @@
             // 
             // DateOfPurchaseDTP
             // 
-            this.DateOfPurchaseDTP.Location = new System.Drawing.Point(279, 174);
-            this.DateOfPurchaseDTP.Margin = new System.Windows.Forms.Padding(4);
+            this.DateOfPurchaseDTP.Location = new System.Drawing.Point(209, 141);
             this.DateOfPurchaseDTP.MinimumSize = new System.Drawing.Size(4, 25);
             this.DateOfPurchaseDTP.Name = "DateOfPurchaseDTP";
-            this.DateOfPurchaseDTP.Size = new System.Drawing.Size(204, 25);
+            this.DateOfPurchaseDTP.Size = new System.Drawing.Size(154, 25);
             this.DateOfPurchaseDTP.TabIndex = 19;
             // 
             // VehicleIdL
             // 
             this.VehicleIdL.AutoSize = true;
-            this.VehicleIdL.Location = new System.Drawing.Point(170, 444);
-            this.VehicleIdL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.VehicleIdL.Location = new System.Drawing.Point(128, 361);
             this.VehicleIdL.Name = "VehicleIdL";
-            this.VehicleIdL.Size = new System.Drawing.Size(68, 16);
+            this.VehicleIdL.Size = new System.Drawing.Size(55, 13);
             this.VehicleIdL.TabIndex = 20;
             this.VehicleIdL.Text = "vehicle_id";
             this.VehicleIdL.UseWaitCursor = true;
@@ -157,10 +148,9 @@
             // CustomerIdL
             // 
             this.CustomerIdL.AutoSize = true;
-            this.CustomerIdL.Location = new System.Drawing.Point(259, 444);
-            this.CustomerIdL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CustomerIdL.Location = new System.Drawing.Point(194, 361);
             this.CustomerIdL.Name = "CustomerIdL";
-            this.CustomerIdL.Size = new System.Drawing.Size(80, 16);
+            this.CustomerIdL.Size = new System.Drawing.Size(64, 13);
             this.CustomerIdL.TabIndex = 21;
             this.CustomerIdL.Text = "customer_id";
             this.CustomerIdL.Visible = false;
@@ -169,8 +159,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(47, 300);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(35, 244);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 20);
             this.label1.TabIndex = 22;
@@ -183,16 +172,27 @@
             "Cash",
             "Credit",
             "Gift Card"});
-            this.PaymentTypeCB.Location = new System.Drawing.Point(279, 300);
+            this.PaymentTypeCB.Location = new System.Drawing.Point(209, 244);
+            this.PaymentTypeCB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PaymentTypeCB.Name = "PaymentTypeCB";
-            this.PaymentTypeCB.Size = new System.Drawing.Size(204, 24);
+            this.PaymentTypeCB.Size = new System.Drawing.Size(154, 21);
             this.PaymentTypeCB.TabIndex = 23;
+            // 
+            // VehicleTypeL
+            // 
+            this.VehicleTypeL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.VehicleTypeL.Location = new System.Drawing.Point(259, 23);
+            this.VehicleTypeL.Name = "VehicleTypeL";
+            this.VehicleTypeL.Size = new System.Drawing.Size(104, 22);
+            this.VehicleTypeL.TabIndex = 24;
+            this.VehicleTypeL.Text = "Vehicle Type";
             // 
             // FuelPurchaseForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 483);
+            this.ClientSize = new System.Drawing.Size(482, 392);
+            this.Controls.Add(this.VehicleTypeL);
             this.Controls.Add(this.PaymentTypeCB);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CustomerIdL);
@@ -206,7 +206,6 @@
             this.Controls.Add(this.DateL);
             this.Controls.Add(this.TransactionAmountL);
             this.Controls.Add(this.CustomerNameL);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FuelPurchaseForm";
             this.Text = "Fuel Purchase";
             this.ResumeLayout(false);
@@ -229,5 +228,6 @@
         private System.Windows.Forms.Label CustomerIdL;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox PaymentTypeCB;
+        private System.Windows.Forms.Label VehicleTypeL;
     }
 }

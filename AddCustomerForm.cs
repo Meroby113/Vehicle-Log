@@ -40,7 +40,7 @@ namespace EntityFrameworkProject
 
             Vlog.Customer.Add(customer);
             Vlog.SaveChanges();
-            MessageBox.Show(NameTB.Text + "Added Successfully");
+            MessageBox.Show(NameTB.Text + " Added Successfully");
             GenelClass c = new GenelClass();
             c.ClearInputs(this.Controls);
         }

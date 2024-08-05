@@ -21,7 +21,8 @@ namespace EntityFrameworkProject
             InitializeComponent();
             VehicleIdL.Text = vehicle_id.ToString();
             CustomerIdL.Text = customer_id.ToString();
-            CustomerNameL.Text = customerName + " " + vehicleType;
+            CustomerNameL.Text = customerName;
+            VehicleTypeL.Text = vehicleType;
             CustomerNameL.TextAlign = ContentAlignment.MiddleCenter;
         }
 
@@ -35,22 +36,6 @@ namespace EntityFrameworkProject
         private void PurchaseFuelB_Click(object sender, EventArgs e)
         {
             controlPayment(PaymentTypeCB.Text, TransactionAmountTB.Text);
-
-            Fuel fuel = new Fuel();
-            fuel.vehicle_id = Int32.Parse(VehicleIdL.Text);
-            fuel.transaction_amount = Int32.Parse(TransactionAmountTB.Text);
-            fuel.fuel_amount = Int32.Parse(FuelAmountTB.Text);
-            fuel.fueling_date = DateOfPurchaseDTP.Value;
-            PaymentTypeCB.Text = GC.checkCombobox(PaymentTypeCB.Text);
-            fuel.payment_type = PaymentTypeCB.Text;
-            Vlog.Fuel.Add(fuel);
-            Vlog.SaveChanges();
-
-            MessageBoxForm messageBoxForm = new MessageBoxForm("Fuel Purchase Completed Successfully");
-            messageBoxForm.ShowDialog();
-
-            GC.ClearInputs(this.Controls);
-
         }
 
         private void FuelAmountTB_TextChanged(object sender, EventArgs e)
@@ -70,6 +55,7 @@ namespace EntityFrameworkProject
 
         public void controlPayment(String paymentType, String transactionAmount)
         {
+            var isPaymentSucceded = false;
             var customer_id =Int32.Parse(CustomerIdL.Text);
             Balance balance = (from b in Vlog.Balance
                            where b.customer_id == customer_id
@@ -95,6 +81,7 @@ namespace EntityFrameworkProject
                     balance.cash -= Decimal.Parse(transactionAmount);
                     MessageBoxForm messageBoxForm = new MessageBoxForm("Payment is successfull");
                     messageBoxForm.ShowDialog();
+                    isPaymentSucceded = true;
                 }
             }
             else if (paymentType == "Credit")
@@ -109,6 +96,7 @@ namespace EntityFrameworkProject
                     balance.credit -= Decimal.Parse(transactionAmount);
                     MessageBoxForm messageBoxForm = new MessageBoxForm("Payment is successfull");
                     messageBoxForm.ShowDialog();
+                    isPaymentSucceded = true;
                 }
             }
             else
@@ -123,7 +111,24 @@ namespace EntityFrameworkProject
                     balance.gift_card -= Decimal.Parse(transactionAmount);
                     MessageBoxForm messageBoxForm = new MessageBoxForm("Payment is successfull");
                     messageBoxForm.ShowDialog();
+                    isPaymentSucceded = true;
                 }
+            }
+            if (isPaymentSucceded) {
+
+                Fuel fuel = new Fuel();
+                fuel.vehicle_id = Int32.Parse(VehicleIdL.Text);
+                fuel.transaction_amount = Int32.Parse(TransactionAmountTB.Text);
+                fuel.fuel_amount = Int32.Parse(FuelAmountTB.Text);
+                fuel.fueling_date = DateOfPurchaseDTP.Value;
+                PaymentTypeCB.Text = GC.checkCombobox(PaymentTypeCB.Text);
+                fuel.payment_type = PaymentTypeCB.Text;
+                Vlog.Fuel.Add(fuel);
+                Vlog.SaveChanges();
+
+                GC.ClearInputs(this.Controls);
+            } else {
+                PaymentTypeCB.Text = "";
             }
                 Vlog.SaveChanges();
             }

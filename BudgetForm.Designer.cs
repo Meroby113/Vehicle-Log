@@ -48,10 +48,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::EntityFrameworkProject.Properties.Resources.budget__3_;
-            this.pictureBox1.Location = new System.Drawing.Point(51, -39);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(59, -18);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(401, 192);
+            this.pictureBox1.Size = new System.Drawing.Size(301, 156);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -59,10 +58,9 @@
             // 
             this.BackToListCustomerFormB.BackColor = System.Drawing.Color.Khaki;
             this.BackToListCustomerFormB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BackToListCustomerFormB.Location = new System.Drawing.Point(33, 342);
-            this.BackToListCustomerFormB.Margin = new System.Windows.Forms.Padding(4);
+            this.BackToListCustomerFormB.Location = new System.Drawing.Point(25, 278);
             this.BackToListCustomerFormB.Name = "BackToListCustomerFormB";
-            this.BackToListCustomerFormB.Size = new System.Drawing.Size(109, 41);
+            this.BackToListCustomerFormB.Size = new System.Drawing.Size(82, 33);
             this.BackToListCustomerFormB.TabIndex = 1;
             this.BackToListCustomerFormB.Text = "Back";
             this.BackToListCustomerFormB.UseVisualStyleBackColor = false;
@@ -72,10 +70,9 @@
             // 
             this.UpdateBudgetB.BackColor = System.Drawing.Color.PaleTurquoise;
             this.UpdateBudgetB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.UpdateBudgetB.Location = new System.Drawing.Point(281, 342);
-            this.UpdateBudgetB.Margin = new System.Windows.Forms.Padding(4);
+            this.UpdateBudgetB.Location = new System.Drawing.Point(211, 278);
             this.UpdateBudgetB.Name = "UpdateBudgetB";
-            this.UpdateBudgetB.Size = new System.Drawing.Size(204, 41);
+            this.UpdateBudgetB.Size = new System.Drawing.Size(153, 33);
             this.UpdateBudgetB.TabIndex = 2;
             this.UpdateBudgetB.Text = "Update Budget";
             this.UpdateBudgetB.UseVisualStyleBackColor = false;
@@ -85,10 +82,9 @@
             // 
             this.AddBudgetB.BackColor = System.Drawing.Color.PaleTurquoise;
             this.AddBudgetB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.AddBudgetB.Location = new System.Drawing.Point(289, 342);
-            this.AddBudgetB.Margin = new System.Windows.Forms.Padding(4);
+            this.AddBudgetB.Location = new System.Drawing.Point(217, 278);
             this.AddBudgetB.Name = "AddBudgetB";
-            this.AddBudgetB.Size = new System.Drawing.Size(163, 41);
+            this.AddBudgetB.Size = new System.Drawing.Size(122, 33);
             this.AddBudgetB.TabIndex = 3;
             this.AddBudgetB.Text = "Add Budget";
             this.AddBudgetB.UseVisualStyleBackColor = false;
@@ -98,18 +94,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(103, 185);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(77, 150);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 16);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 4;
             // 
             // GiftCardL
             // 
             this.GiftCardL.AutoSize = true;
             this.GiftCardL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.GiftCardL.Location = new System.Drawing.Point(140, 217);
-            this.GiftCardL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.GiftCardL.Location = new System.Drawing.Point(105, 176);
             this.GiftCardL.Name = "GiftCardL";
             this.GiftCardL.Size = new System.Drawing.Size(73, 20);
             this.GiftCardL.TabIndex = 5;
@@ -119,8 +113,7 @@
             // 
             this.CredirL.AutoSize = true;
             this.CredirL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.CredirL.Location = new System.Drawing.Point(140, 257);
-            this.CredirL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CredirL.Location = new System.Drawing.Point(105, 209);
             this.CredirL.Name = "CredirL";
             this.CredirL.Size = new System.Drawing.Size(51, 20);
             this.CredirL.TabIndex = 6;
@@ -130,8 +123,7 @@
             // 
             this.CashL.AutoSize = true;
             this.CashL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.CashL.Location = new System.Drawing.Point(140, 300);
-            this.CashL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CashL.Location = new System.Drawing.Point(105, 244);
             this.CashL.Name = "CashL";
             this.CashL.Size = new System.Drawing.Size(46, 20);
             this.CashL.TabIndex = 7;
@@ -140,30 +132,27 @@
             // GiftCardTB
             // 
             this.GiftCardTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.GiftCardTB.Location = new System.Drawing.Point(245, 213);
-            this.GiftCardTB.Margin = new System.Windows.Forms.Padding(4);
+            this.GiftCardTB.Location = new System.Drawing.Point(184, 173);
             this.GiftCardTB.Name = "GiftCardTB";
-            this.GiftCardTB.Size = new System.Drawing.Size(132, 26);
+            this.GiftCardTB.Size = new System.Drawing.Size(100, 26);
             this.GiftCardTB.TabIndex = 8;
             this.GiftCardTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.GiftCardTB_KeyPress);
             // 
             // CreditTB
             // 
             this.CreditTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.CreditTB.Location = new System.Drawing.Point(245, 257);
-            this.CreditTB.Margin = new System.Windows.Forms.Padding(4);
+            this.CreditTB.Location = new System.Drawing.Point(184, 209);
             this.CreditTB.Name = "CreditTB";
-            this.CreditTB.Size = new System.Drawing.Size(132, 26);
+            this.CreditTB.Size = new System.Drawing.Size(100, 26);
             this.CreditTB.TabIndex = 9;
             this.CreditTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CreditTB_KeyPress);
             // 
             // CashTB
             // 
             this.CashTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.CashTB.Location = new System.Drawing.Point(245, 297);
-            this.CashTB.Margin = new System.Windows.Forms.Padding(4);
+            this.CashTB.Location = new System.Drawing.Point(184, 241);
             this.CashTB.Name = "CashTB";
-            this.CashTB.Size = new System.Drawing.Size(132, 26);
+            this.CashTB.Size = new System.Drawing.Size(100, 26);
             this.CashTB.TabIndex = 10;
             this.CashTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CashTB_KeyPress);
             // 
@@ -171,8 +160,7 @@
             // 
             this.NoBudgetL.AutoSize = true;
             this.NoBudgetL.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.NoBudgetL.Location = new System.Drawing.Point(74, 237);
-            this.NoBudgetL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.NoBudgetL.Location = new System.Drawing.Point(56, 193);
             this.NoBudgetL.Name = "NoBudgetL";
             this.NoBudgetL.Size = new System.Drawing.Size(353, 36);
             this.NoBudgetL.TabIndex = 11;
@@ -183,10 +171,9 @@
             // Customer_idL
             // 
             this.Customer_idL.AutoSize = true;
-            this.Customer_idL.Location = new System.Drawing.Point(4, 394);
-            this.Customer_idL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Customer_idL.Location = new System.Drawing.Point(3, 320);
             this.Customer_idL.Name = "Customer_idL";
-            this.Customer_idL.Size = new System.Drawing.Size(82, 16);
+            this.Customer_idL.Size = new System.Drawing.Size(65, 13);
             this.Customer_idL.TabIndex = 12;
             this.Customer_idL.Text = "Customer_id";
             this.Customer_idL.Visible = false;
@@ -194,18 +181,17 @@
             // CustomerNameL
             // 
             this.CustomerNameL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.CustomerNameL.Location = new System.Drawing.Point(136, 174);
-            this.CustomerNameL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CustomerNameL.Location = new System.Drawing.Point(102, 141);
             this.CustomerNameL.Name = "CustomerNameL";
-            this.CustomerNameL.Size = new System.Drawing.Size(263, 27);
+            this.CustomerNameL.Size = new System.Drawing.Size(197, 22);
             this.CustomerNameL.TabIndex = 13;
             this.CustomerNameL.Text = "Custort Name Surname";
             // 
             // BudgetForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(501, 405);
+            this.ClientSize = new System.Drawing.Size(537, 329);
             this.Controls.Add(this.CustomerNameL);
             this.Controls.Add(this.Customer_idL);
             this.Controls.Add(this.NoBudgetL);
@@ -220,7 +206,6 @@
             this.Controls.Add(this.UpdateBudgetB);
             this.Controls.Add(this.BackToListCustomerFormB);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BudgetForm";
             this.Text = "Budget";
             this.Load += new System.EventHandler(this.BudgetForm_Load);

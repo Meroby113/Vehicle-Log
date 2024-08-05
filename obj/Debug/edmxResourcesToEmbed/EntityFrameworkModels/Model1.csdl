@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbVehicleLogsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Balance">
+    <Key>
+      <PropertyRef Name="balance_id" />
+    </Key>
+    <Property Name="balance_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="gift_card" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="credit" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="cash" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="customer_id" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Customer_Balance" FromRole="Balance" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="customer_id" />
+    </Key>
+    <Property Name="customer_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="surname" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="user_id" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="date_of_birth" Type="DateTime" Precision="0" />
+    <Property Name="gender" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="phone_number" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="add_info_abt_user" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="balance_id" Type="Int32" />
+    <Property Name="approval_status" Type="Boolean" />
+    <NavigationProperty Name="Balance" Relationship="Self.FK_Customer_Balance" FromRole="Customer" ToRole="Balance" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_Vehicle_Customer" FromRole="Customer" ToRole="Vehicle" />
+  </EntityType>
+  <EntityType Name="Fuel">
+    <Key>
+      <PropertyRef Name="fuel_id" />
+    </Key>
+    <Property Name="fuel_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fueling_date" Type="DateTime" Precision="0" />
+    <Property Name="transaction_amount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="fuel_amount" Type="Double" />
+    <Property Name="vehicle_id" Type="Int32" />
+    <Property Name="payment_type" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_Fuel_Vehicle" FromRole="Fuel" ToRole="Vehicle" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="vehicle_id" />
+    </Key>
+    <Property Name="vehicle_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vehicle_type" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="plate_number" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="fuel_type" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="customer_id" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Vehicle_Customer" FromRole="Vehicle" ToRole="Customer" />
+    <NavigationProperty Name="Fuel" Relationship="Self.FK_Fuel_Vehicle" FromRole="Vehicle" ToRole="Fuel" />
+  </EntityType>
+  <Association Name="FK_Customer_Balance">
+    <End Role="Balance" Type="Self.Balance" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Balance">
+        <PropertyRef Name="balance_id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="balance_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vehicle_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Vehicle" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="customer_id" />
+      </Principal>
+      <Dependent Role="Vehicle">
+        <PropertyRef Name="customer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Fuel_Vehicle">
+    <End Role="Vehicle" Type="Self.Vehicle" Multiplicity="0..1" />
+    <End Role="Fuel" Type="Self.Fuel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicle">
+        <PropertyRef Name="vehicle_id" />
+      </Principal>
+      <Dependent Role="Fuel">
+        <PropertyRef Name="vehicle_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbVlogEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Balance" EntityType="Self.Balance" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" />
+    <EntitySet Name="Fuel" EntityType="Self.Fuel" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Vehicle" EntityType="Self.Vehicle" />
+    <AssociationSet Name="FK_Customer_Balance" Association="Self.FK_Customer_Balance">
+      <End Role="Balance" EntitySet="Balance" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vehicle_Customer" Association="Self.FK_Vehicle_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Vehicle" EntitySet="Vehicle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Fuel_Vehicle" Association="Self.FK_Fuel_Vehicle">
+      <End Role="Vehicle" EntitySet="Vehicle" />
+      <End Role="Fuel" EntitySet="Fuel" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

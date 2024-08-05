@@ -20,7 +20,8 @@ namespace EntityFrameworkProject
             Customer_idL.Text = customer_id.ToString();
             VehicleIdL.Text = vehicle_id.ToString();
             CustomerNameL.Text = customerName;
-            CustomerVehicleL.Text = vehicleType;
+            VehicleTypeL.Text = vehicleType;
+            
             CustomerNameL.TextAlign = ContentAlignment.MiddleCenter;
         }
         private void HistoryOfFuelPurchaseForm_Load(object sender, EventArgs e)
@@ -31,10 +32,12 @@ namespace EntityFrameworkProject
                        select new
                        {
                            fuel.fuel_id,
-                           fuel.fuel_amount,
-                           fuel.transaction_amount,
-                           fuel.fueling_date
+                           fuel_amount = fuel.fuel_amount.ToString() + " Liters",
+                           transaction_amount = fuel.transaction_amount.ToString() + " $",
+                           fuel.fueling_date,
+                           fuel.payment_type,
                        };
+            
 
             FuelHistoryDGV.DataSource = data.ToList();
 
@@ -42,6 +45,7 @@ namespace EntityFrameworkProject
             FuelHistoryDGV.Columns[1].HeaderText = "Fuel Amount";
             FuelHistoryDGV.Columns[2].HeaderText = "Transaction Amount";
             FuelHistoryDGV.Columns[3].HeaderText = "Date of Purchase";
+            FuelHistoryDGV.Columns[4].HeaderText = "Payment Type";
         }
          private void BackToVehicleListFormB_Click(object sender, EventArgs e)
         {
