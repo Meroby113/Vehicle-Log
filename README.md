@@ -18,7 +18,8 @@ To learn how to use data-first approach in entitiy framework by using fallowing 
   * SQL Server Management Studio 20
 
 # Main Page of Application
-![image](https://github.com/user-attachments/assets/6d6dfd5a-6ec9-4d9b-ae98-e5c08685bfc7)
+![image](https://github.com/user-attachments/assets/c7b088d5-2dac-49de-96ce-533f9ee10c8d)
+
 # Add Customer
 By clicking the "Add Customer" button, you can add a new customer<br /><br />
 ![image](https://github.com/user-attachments/assets/26965b56-b2a7-49dd-8849-7bee45ae3862)
