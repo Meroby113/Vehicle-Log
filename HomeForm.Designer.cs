@@ -113,7 +113,7 @@
             this.HomePageL2.Size = new System.Drawing.Size(469, 120);
             this.HomePageL2.TabIndex = 5;
             this.HomePageL2.Text = "Customers can be listed, added, updated and deleted.\r\nEvery user have their budge" +
-    "t, vehicles and history of fuel purhase.\r\nAnd some additional futures are avalib" +
+    "t, vehicles and history of fuel purchase.\r\nAnd some additional features are available" +
     "le in this app.\r\nJust go on..\r\n\r\n\r\n";
             // 
             // HomeF
