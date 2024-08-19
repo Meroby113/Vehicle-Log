@@ -34,11 +34,11 @@ If you want to perform these operations, you first need to change theapprovel st
 In this section, you can add your customer's vehicles by entering Vehicle Type, Plate Number and Fuel Type.<br /><br />
 ![image](https://github.com/user-attachments/assets/0881b544-0934-4487-915f-dc2186441931)
 # Vehicle List
-When you click "Show Vehicle List" all vehicles that the customer has will be lised.<br /><br />
+When you click "Show Vehicle List" all vehicles that the customer has will be listed.<br /><br />
 ![image](https://github.com/user-attachments/assets/9084da78-a03e-4db9-ad23-f818d1201f4b)<br /><br />
 <code style="color : red">Add Fuel:</code>You can add fuel to each of your vehicles.<br /><br />
 ![image](https://github.com/user-attachments/assets/86c38947-38c1-4c61-915a-e5fe2c2dcc85)<br /><br />
-Note: If you do not have a balance you cannot add fuel to your vehicle, firstly customer's budget need to be added. Otherwise you will get this error message<br />
+Note: If you do not have a balance you cannot add fuel to your vehicle, firstly customer budget needs to be added. Otherwise you will get this error message.<br />
 ![image](https://github.com/user-attachments/assets/1680dfd5-12c6-49b6-b2c5-a6c7acdff83b)
 # Show Budget
 When you add the customer for the first time ustomer's budget will be empty, so before adding fuel you need to add your customer budget.<br />
