@@ -49,7 +49,8 @@ For each fuel purchase your money will decrease.<br /><br />
 ![image](https://github.com/user-attachments/assets/600f281b-f365-4291-b00f-0eec957cd64c)<br /><br />
 <code style="color : red">Delete Vehicle:</code> You can delete vehicle by clicking that button, but be careful all related fual purchase historly will be deleted after deleting the vehicle.<br />
 # Delete Customer
-You can delete a customer and all related data by clicking the "Delete Customer" button.
+You can delete a customer and all related data by clicking the "Delete Customer" button.<br/>
+Note: I'm aware that the main folder of the project is a bit cluttered with many files, I just didn't feel like remaking the database so it stays for now 😅
 
 
 
